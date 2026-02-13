@@ -1,18 +1,19 @@
 # Intro to AI - Final Project
+**Author:** David Avni  
+**Academic Institution:** Bar-Ilan University  
 
-## Project Overview
-This project covers three main areas of Machine Learning:
-1. **Regression**: Predicting fuel efficiency (MPG) using Linear, Polynomial, and KNN models.
-2. **Classical Classification**: Classifying CIFAR-10 images using Logistic Regression, KNN, and SVM (RBF Kernel).
-3. **Deep Learning**: Building a Convolutional Neural Network (CNN) in PyTorch to achieve 80% accuracy.
+## Overview
+This project explores Machine Learning techniques across regression and classification tasks, culminating in a Deep Learning solution for image recognition.
 
-## Results Summary
-| Model | Task | Metric | Performance |
-|-------|------|--------|-------------|
-| KNN (k=2) | Regression | MSE | 5.30 |
-| SVM (RBF) | Classification | Accuracy | 44.35% |
-| **CNN (PyTorch)** | **Classification** | **Accuracy** | **80.00%** |
+### Key Milestones:
+1. **Regression (Auto MPG):** Predicted fuel efficiency. Best model: **KNN (k=2)** with MSE of 5.30.
+2. **Classical Classification (CIFAR-10):** Comparative study of KNN, Logistic Regression, and SVM. Best classical model: **SVM (RBF Kernel)** with 44.35% accuracy.
+3. **Deep Learning (PyTorch):** Developed a Convolutional Neural Network (CNN) that achieved **80.00% accuracy** on CIFAR-10.
+
+## Project Structure
+- `Classical_ML.ipynb`: Data analysis and classical models (Parts I & II).
+- `Deep_Learning.ipynb`: PyTorch CNN implementation (Part III).
+- `Final_Report.pdf`: The complete academic report.
 
 ## How to Run
-- Regression & ML: Use `requirements.txt` to install dependencies and run the scripts.
-- PyTorch: Open the notebook in `Deep_Learning/` via Google Colab.
+The Deep Learning section was optimized for Google Colab. You can run it directly using the link provided in the report or by opening the notebook file in this repository.
